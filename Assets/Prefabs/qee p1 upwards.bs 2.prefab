@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 412550155438797821}
   - component: {fileID: 7356567263434571217}
   - component: {fileID: 5753623173236670999}
+  - component: {fileID: 7319302867561473984}
   m_Layer: 0
   m_Name: qee p1 upwards.bs 2
   m_TagString: Obstacle
@@ -130,7 +131,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.06, y: 1}
+    pivot: {x: 0.06, y: 0.89}
     oldSize: {x: 19.2, y: 10.8}
     newSize: {x: 19.2, y: 10.8}
     adaptiveTilingThreshold: 0.5
@@ -171,3 +172,17 @@ PolygonCollider2D:
       - {x: 0.55799985, y: -4.79}
       - {x: 0.8979999, y: -4.61}
   m_UseDelaunayMesh: 1
+--- !u!114 &7319302867561473984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161266922520662393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f9890e6c27bc84cbc0b07069878038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovingObstacle
+  distance: 2
+  speed: 1

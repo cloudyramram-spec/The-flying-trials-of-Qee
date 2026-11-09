@@ -578,6 +578,7 @@ MonoBehaviour:
   - {fileID: 6161266922520662393, guid: 1750ae5c57b506949a1d1807de61a7a7, type: 3}
   - {fileID: 8847826027582102619, guid: f162ad3eeb126244c82164558ed4ecaf, type: 3}
   goalPrefab: {fileID: 7819844600449780140, guid: eebcc75ede933aa48ba68ea8e9b43697, type: 3}
+  alternate: 0
   obstacleCount: 12
   startX: 12
   spacing: 6
