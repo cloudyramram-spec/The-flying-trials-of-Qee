@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
 
 public class LevelEnd : MonoBehaviour
 {
     public GameObject endGroup;        // the EndSequence object
     public GameObject qee;             // the player
     public CameraFollow cameraFollow;  // the camera script we need to stop
+    public TMP_Text congratsText;      // optional: only used in the final level
     public string nextScene = "";      // scene to load afterwards (empty = stay here)
     public float showTime = 5f;        // seconds the ending is shown
 
@@ -36,6 +38,13 @@ public class LevelEnd : MonoBehaviour
         Vector3 cam = Camera.main.transform.position;
         endGroup.transform.position = new Vector3(cam.x, 0f, 0f);
         endGroup.SetActive(true);
+
+        // Final level: show the congratulations message with the score
+        if (congratsText != null)
+        {
+            congratsText.gameObject.SetActive(true);
+            congratsText.text = "Congratulations!\nFinal score: " + GameData.score;
+        }
 
         // Wait, then load the next scene if there is one
         yield return new WaitForSeconds(showTime);

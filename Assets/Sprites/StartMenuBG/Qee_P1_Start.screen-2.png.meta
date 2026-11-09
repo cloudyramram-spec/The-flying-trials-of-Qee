@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 0806113fa92a82848af81b547ba089c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4442906826777124949
+    second: Qee_P1_Start.screen-2_0
+  - first:
+      213: 7445461132307879159
+    second: Qee_P1_Start.screen-2_1
+  - first:
+      213: 6134020533129505009
+    second: Qee_P1_Start.screen-2_2
+  - first:
+      213: -31470866519070224
+    second: Qee_P1_Start.screen-2_3
+  - first:
+      213: -1480680260674654245
+    second: Qee_P1_Start.screen-2_4
+  - first:
+      213: 4956546000061372419
+    second: Qee_P1_Start.screen-2_5
+  - first:
+      213: 2256418646726953786
+    second: Qee_P1_Start.screen-2_6
+  - first:
+      213: -3557297824046884503
+    second: Qee_P1_Start.screen-2_7
+  - first:
+      213: 2087289700354759272
+    second: Qee_P1_Start.screen-2_8
+  - first:
+      213: 1328874075680817221
+    second: Qee_P1_Start.screen-2_9
+  - first:
+      213: -2697986946587423377
+    second: Qee_P1_Start.screen-2_10
+  - first:
+      213: -3358163576584961909
+    second: Qee_P1_Start.screen-2_11
+  - first:
+      213: 9118068727489294438
+    second: Qee_P1_Start.screen-2_12
+  - first:
+      213: -8194294908505497471
+    second: Qee_P1_Start.screen-2_13
+  - first:
+      213: -5981198067405491190
+    second: Qee_P1_Start.screen-2_14
+  - first:
+      213: -2439300728990690353
+    second: Qee_P1_Start.screen-2_15
+  - first:
+      213: -3693099543142490899
+    second: Qee_P1_Start.screen-2_16
+  - first:
+      213: 2200706428475364740
+    second: Qee_P1_Start.screen-2_17
+  - first:
+      213: -8008964911258167415
+    second: Qee_P1_Start.screen-2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 814
+        width: 240
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf9ac3d7cf9752c0800000000000000
+      internalID: -4442906826777124949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 785
+        width: 100
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4503cb377935760800000000000000
+      internalID: 7445461132307879159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_2
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 932
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8e22aec2b602550800000000000000
+      internalID: 6134020533129505009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 814
+        width: 131
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f96b54e961309ff0800000000000000
+      internalID: -31470866519070224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 692
+        width: 193
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfed8cd521937be0800000000000000
+      internalID: -1480680260674654245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 702
+        width: 209
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089a8e735039c440800000000000000
+      internalID: 4956546000061372419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 823
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b4abeddc8605f10800000000000000
+      internalID: 2256418646726953786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 642
+        width: 92
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9695a65f970f1aec0800000000000000
+      internalID: -3557297824046884503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 500
+        width: 227
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a1afc6cea87fc10800000000000000
+      internalID: 2087289700354759272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_9
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 689
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5404e206eeb117210800000000000000
+      internalID: 1328874075680817221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_10
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 602
+        width: 116
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d0408aa23de8ad0800000000000000
+      internalID: -2697986946587423377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_11
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 645
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b808ff7f4086561d0800000000000000
+      internalID: -3358163576584961909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_12
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 530
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660f893b233e98e70800000000000000
+      internalID: 9118068727489294438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_13
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 582
+        width: 45
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180ecb92234084e80800000000000000
+      internalID: -8194294908505497471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_14
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 510
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04fa052c048efca0800000000000000
+      internalID: -5981198067405491190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_15
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 485
+        width: 98
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3982439ecd52ed0800000000000000
+      internalID: -2439300728990690353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_16
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 217
+        width: 266
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec95da48897fbcc0800000000000000
+      internalID: -3693099543142490899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_17
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 300
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485513c36da7a8e10800000000000000
+      internalID: 2200706428475364740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Qee_P1_Start.screen-2_18
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 329
+        width: 136
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98793e5b8d07ad090800000000000000
+      internalID: -8008964911258167415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Qee_P1_Start.screen-2_0: -4442906826777124949
+      Qee_P1_Start.screen-2_1: 7445461132307879159
+      Qee_P1_Start.screen-2_10: -2697986946587423377
+      Qee_P1_Start.screen-2_11: -3358163576584961909
+      Qee_P1_Start.screen-2_12: 9118068727489294438
+      Qee_P1_Start.screen-2_13: -8194294908505497471
+      Qee_P1_Start.screen-2_14: -5981198067405491190
+      Qee_P1_Start.screen-2_15: -2439300728990690353
+      Qee_P1_Start.screen-2_16: -3693099543142490899
+      Qee_P1_Start.screen-2_17: 2200706428475364740
+      Qee_P1_Start.screen-2_18: -8008964911258167415
+      Qee_P1_Start.screen-2_2: 6134020533129505009
+      Qee_P1_Start.screen-2_3: -31470866519070224
+      Qee_P1_Start.screen-2_4: -1480680260674654245
+      Qee_P1_Start.screen-2_5: 4956546000061372419
+      Qee_P1_Start.screen-2_6: 2256418646726953786
+      Qee_P1_Start.screen-2_7: -3557297824046884503
+      Qee_P1_Start.screen-2_8: 2087289700354759272
+      Qee_P1_Start.screen-2_9: 1328874075680817221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

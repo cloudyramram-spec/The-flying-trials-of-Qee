@@ -9,23 +9,29 @@ public class QeeController : MonoBehaviour
     public float restartDelay = 1f;    // seconds before the level restarts
     public float minY = -5.5f;         // invisible floor
     public float maxY = 5.5f;          // invisible ceiling
+    public bool resetScoreAtStart = false;   // tick this in Level1 only
 
     private Rigidbody2D rb;
     private Animator anim;
-    private bool isDead = false;       // true after hitting something
+    private bool isDead = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        // A brand new game starts at zero (Level1 only)
+        if (resetScoreAtStart)
+            GameData.score = 0;
+
+        // Remember the score at the start of this level
+        GameData.scoreAtLevelStart = GameData.score;
     }
 
     void Update()
     {
-        // After a hit, ignore the player's input
         if (isDead) return;
 
-        // Falling out of the screen counts as a hit (replaces the ground)
         if (transform.position.y < minY || transform.position.y > maxY)
         {
             StartCoroutine(Die());
@@ -45,7 +51,6 @@ public class QeeController : MonoBehaviour
         }
     }
 
-    // Unity calls this when Qee's collider touches another collider
     void OnCollisionEnter2D(Collision2D col)
     {
         if (isDead) return;
@@ -59,17 +64,13 @@ public class QeeController : MonoBehaviour
     IEnumerator Die()
     {
         isDead = true;
-
-        // Stop moving forward right away
         rb.linearVelocity = Vector2.zero;
-
-        // Play the hit animation (only works if the "Hit" trigger exists)
         anim.SetTrigger("Hit");
 
-        // Wait so the player can see what happened
-        yield return new WaitForSeconds(restartDelay);
+        // Undo the points collected in this attempt
+        GameData.score = GameData.scoreAtLevelStart;
 
-        // Restart the current level
+        yield return new WaitForSeconds(restartDelay);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
