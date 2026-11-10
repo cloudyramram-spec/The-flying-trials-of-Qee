@@ -648,6 +648,7 @@ MonoBehaviour:
   endGroup: {fileID: 1504993136}
   qee: {fileID: 1535929409}
   cameraFollow: {fileID: 519420033}
+  congratsText: {fileID: 0}
   nextScene: Level2
   showTime: 5
 --- !u!4 &572079615
@@ -809,7 +810,7 @@ MonoBehaviour:
   goalPrefab: {fileID: 7819844600449780140, guid: eebcc75ede933aa48ba68ea8e9b43697, type: 3}
   leafPrefab: {fileID: 5788834362448498068, guid: f5782d9468e2b324a8c087874dd9b7c7, type: 3}
   alternate: 0
-  obstacleCount: 12
+  obstacleCount: 2
   startX: 12
   spacing: 6
   bottomY: -6
@@ -1158,6 +1159,7 @@ MonoBehaviour:
   restartDelay: 1
   minY: -5.5
   maxY: 5.5
+  resetScoreAtStart: 0
 --- !u!1 &1678799819
 GameObject:
   m_ObjectHideFlags: 0
