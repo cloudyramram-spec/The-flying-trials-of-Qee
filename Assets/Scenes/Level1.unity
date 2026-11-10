@@ -810,7 +810,7 @@ MonoBehaviour:
   goalPrefab: {fileID: 7819844600449780140, guid: eebcc75ede933aa48ba68ea8e9b43697, type: 3}
   leafPrefab: {fileID: 5788834362448498068, guid: f5782d9468e2b324a8c087874dd9b7c7, type: 3}
   alternate: 0
-  obstacleCount: 2
+  obstacleCount: 12
   startX: 12
   spacing: 6
   bottomY: -6
